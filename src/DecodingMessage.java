@@ -23,7 +23,7 @@ public class DecodingMessage {
             System.out.println("Error reading file.");
         }
 
-        int incrementor = 2;
+        int incrementor = 1;
         //Iterate through the entries in the hashmap using our key to get the string to add
         //the word that is at the end of our "pyramid" line.
         for(int i = 1; i < ourWords.size(); i = i + incrementor){
